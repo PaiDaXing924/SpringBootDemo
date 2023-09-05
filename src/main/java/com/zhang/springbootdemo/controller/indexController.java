@@ -11,12 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class indexController {
 
-    @RequestMapping(value={"/index","/"}, method= RequestMethod.GET)
-    public String index() {
-        log.info("欢迎进入springbootdemo系统");
-        return "index";
-    }
-
     @RequestMapping(value = "/sendAjax",method = RequestMethod.POST)
     @ResponseBody
     public String sendAjax(@RequestBody String params1) {
