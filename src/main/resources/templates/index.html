@@ -39,20 +39,20 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">登录</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="lead text-center" id="exampleModalLabel" style="margin: auto;">登录</h1>
+<!--              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
             </div>
             <div class="bd-example" style="margin-left: 50px; margin-right: 50px;    margin-top: 20px;   margin-bottom: 20px; ">
               <form th:action="login" method="post" class="form-signin w-150 m-auto">
 <!--                <img class="mb-4" th:src="@{/pic/bootstrap.png}" alt="图标">-->
 <!--                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>-->
                 <div class="form-floating">
-                  <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
-                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email"  name="email">
+                  <label for="email">手机号</label>
                 </div>
                 <div class="form-floating">
-                  <input type="password" class="form-control" id="password" placeholder="Password" name="password">
-                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password"  name="password">
+                  <label for="password">难以记住的密码</label>
                 </div>
                 <div class="checkbox mb-3">
                   <label>

@@ -10,8 +10,8 @@
 }
 
 .form-signin {
-  max-width: 330px;
-  padding: 15px;
+  max-width: 400px;
+  padding: 5px;
 }
 
 .form-signin .form-floating:focus-within {
