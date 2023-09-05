@@ -13,7 +13,7 @@ public class loginController {
     @RequestMapping(value={"/index","/"}, method= RequestMethod.GET)
     public String index() {
         log.info("欢迎进入springbootdemo系统");
-        return "login";
+        return "index";
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
